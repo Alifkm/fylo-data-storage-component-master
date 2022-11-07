@@ -136,7 +136,7 @@ footer {
   }
 
   #{&}__storage-length-wrapper {
-    @include flexProperty(center, space-between);
+    @include flexProperty(space-between, center);
     font-size: 0.9rem;
     color: #FFF;
     font-weight: 700;

@@ -1,0 +1,32 @@
+@mixin gridProperty($column, $row, $x-alignment: center, $y-alignment: center) {
+  display: grid;
+  grid-template-columns: $column;
+  grid-template-rows: $row;
+  justify-content: $x-alignment;
+  align-content: $y-alignment;
+}
+
+@mixin flexProperty($x-alignment: center, $y-alignment: center, $direction: row) {
+  display: flex;
+  justify-content: $x-alignment;
+  align-items: $y-alignment;
+  flex-direction: $direction;
+}
+
+@mixin media-xs {
+  @media screen and (max-width:320px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width:768px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width:1024px) {
+    @content;
+  }
+}

@@ -27,6 +27,7 @@ Users should be able to:
 ![](./images/screenshot%20desktop.png)
 
 - Mobile:
+
 ![](./images/screenshot%20mobile.png)
 
 ### Links
